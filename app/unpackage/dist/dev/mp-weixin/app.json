@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cart/cart",
+    "pages/cate/cate",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "翟洪元&方飞",
+    "navigationBarBackgroundColor": "#c00000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "/static/home_selected.png",
+        "iconPath": "/static/home_unselected.png",
+        "text": "婚纱照",
+        "color": "#000000"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "selectedIconPath": "/static/single_selected.png",
+        "iconPath": "/static/single_unselected.png",
+        "text": "婚礼纪"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "selectedIconPath": "/static/news_selected.png",
+        "iconPath": "/static/news_unselected.png",
+        "text": "联系我们"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "selectedIconPath": "/static/news_selected.png",
+        "iconPath": "/static/news_unselected.png",
+        "text": "学习"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
